@@ -17,6 +17,10 @@ The code implements a stock market prediction model using historical data of the
 
 -Fine-tunes the model by adjusting the probability threshold for predictions.
 
+
+
+
+
 Advantages of Random Forest Classifier:
 
 -Robust to Overfitting: Random Forests are less prone to overfitting compared to decision trees, which helps in generalizing well to unseen data.
