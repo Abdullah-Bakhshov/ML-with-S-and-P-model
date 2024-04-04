@@ -2,13 +2,21 @@ Summary:
 The code implements a stock market prediction model using historical data of the S&P 500 index. It performs the following steps:
 
 Fetches historical data from Yahoo Finance.
+
 Preprocesses the data by removing irrelevant columns, creating a target variable based on price movements, and selecting relevant predictors.
+
 Splits the data into training and testing sets.
+
 Trains a Random Forest Classifier on the training data.
+
 Makes predictions on the test data and evaluates the model's performance using precision score.
+
 Defines functions for prediction and backtesting to iteratively evaluate the model's performance.
+
 Backtests the model with different parameters, such as the number of estimators and minimum samples split.
+
 Fine-tunes the model by adjusting the probability threshold for predictions.
+
 Advantages of Random Forest Classifier:
 
 Robust to Overfitting: Random Forests are less prone to overfitting compared to decision trees, which helps in generalizing well to unseen data.
